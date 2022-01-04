@@ -8,10 +8,16 @@ h1{
 h2{
     font-size: 50px;
 }
+h3{
+    font-size: 35px;
+}
 .n-color{
     color: orangered;
 }
-section{
+.t-color{
+    color: tomato;
+}
+.flex-container{
     display: flex;
 }
 .half-width{
@@ -38,4 +44,32 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.third-page{
+    margin-bottom: 50px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.exper-item{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow:10px 10px 10px 10px rgb(152, 163, 130);
+    padding: 25px;
+    border-radius: 10px;
+}
+#full{
+    border-left: 8px solid;
+    border-image: linear-gradient(rgb(221, 38, 6),rgb(235, 217, 135));
+    border-image-slice: 1;
+}
+#baby{
+    border-left: 8px solid;
+    border-image: linear-gradient(rgb(12, 187, 64),skyblue);
+    border-image-slice: 1; 
+}
+footer{
+    text-align: center;
+    margin-bottom: 50px;
 }
