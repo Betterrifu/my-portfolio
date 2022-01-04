@@ -5,6 +5,9 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 50px;
+}
 .n-color{
     color: orangered;
 }
@@ -16,7 +19,7 @@ section{
     padding: 5%;
 }
 .half-width img{
-    width: 60%;
+    width: 80%;
 }
 .button{
     text-decoration: none;
@@ -30,4 +33,9 @@ section{
 .first-page{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.sec-page{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
