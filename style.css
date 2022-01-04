@@ -1,0 +1,33 @@
+body{
+    font-family: 'Spline Sans', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+.n-color{
+    color: orangered;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding: 5%;
+}
+.half-width img{
+    width: 60%;
+}
+.button{
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    background-image: linear-gradient(tomato,orange);
+    background-color: orangered;
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+.first-page{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
